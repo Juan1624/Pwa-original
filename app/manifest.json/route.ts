@@ -1,8 +1,8 @@
 export async function GET() {
   return Response.json({
-    name: "Cultura Colombiana",
-    short_name: "Cultuura",
-    description: "Aplicación interactiva de preguntas y respuestas sobre la cultura, historia y geografía de Colombia.",
+    name: "TASK APP",
+    short_name: "tareas",
+    description: "Una app para gestionar tareas.",
     start_url: "/",
     display: "standalone",
     background_color: "#FCD116",
