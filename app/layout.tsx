@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "./globals.css";
-import SWRegistration from "./SWRegistration";
+import SWRegistration from "./components/SWRegistration";
 
 
 export const metadata: Metadata = {
