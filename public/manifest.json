@@ -1,25 +1,22 @@
-export async function GET() {
-  return Response.json({
-    name: "Cultura Colombiana",
-    short_name: "Cultuura",
-    description: "Aplicación interactiva de preguntas y respuestas sobre la cultura, historia y geografía de Colombia.",
-    start_url: "/",
-    display: "standalone",
-    background_color: "#FCD116",
-    theme_color: "#003893",
-    icons: [
-      {
-        src: "https://cdn-icons-png.flaticon.com/512/330/330541.png",
-        sizes: "192x192",
-        type: "image/png",
-        purpose: "any"
-      },
-      {
-        src: "https://cdn-icons-png.flaticon.com/512/330/330541.png",
-        sizes: "512x512",
-        type: "image/png",
-        purpose: "maskable"
-      }
-    ]
-  });
+{
+  "name": "Task App",
+  "short_name": "Tasks",
+  "description": "Aplicación de tareas para organizar actividades y notas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4697/4697260.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/330/330541.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
